@@ -6,7 +6,7 @@ import profil from "../public/profil.png";
 export default function Home() {
   return (
     <>
-      <div className="lg:w-[1440px] lg:h-[904px] bg-black">
+      <div className="lg:w-[1440px] lg:h-[700px] bg-black">
         <div>
           <div className="w-[1440px] h-16 bg-[#12B8FFEB] flex items-center justify-center">
             <ul className="flex justify-center space-x-6">
@@ -116,9 +116,55 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:w-[1440px] lg:h-[904px] bg-[#EEECEC]">
-        <h1></h1>
-        <p></p>
+      <div className="lg:w-[1440px] lg:h-[700px] bg-[#EEECEC]">
+        <div className="">
+          <h1 className="font-bold text-6xl ml-56">About me</h1>
+        </div>
+        <div className="mx-56 text-xl leading-10">
+          <p>
+            Hi! My interest in web development started back in 2019 when I
+            decided to create a website for a family company.
+          </p>
+          <p className="mt-10">
+            In 2021 had the privilege to be selected for a 16 weeks Full-Stack
+            Development Bootcamp with School Of Code. It was terrific, from
+            understanding the proccess of{" "}
+            <span className="font-bold">Computational Thinking</span> breaking
+            down problems up to using{" "}
+            <span className="font-bold">Pair-Programiming</span> and{" "}
+            <span className="font-bold">Agile</span> methodologies during{" "}
+            <span className="font-bold">teamwork</span> projects to plan and
+            build a full-stack app for the final project.
+          </p>
+        </div>
+        <div className="flex justify-center mt-5">
+          <div className=" bg-white w-[593px] h-[216px] rounded-lg">
+            <h1 className="ml-10 text-2xl mt-2">Skills</h1>
+            <div className="flex space-x-14 ml-4 text-2xl mt-3">
+              <div>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+              </div>
+              <div>
+                <li>REACT</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Bootstrap</li>
+              </div>
+              <div>
+                <li>Jest</li>
+                <li>Cypress</li>
+                <li>Postman</li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="flex justify-center text-2xl mt-10">
+          Dripping water hollows out a stone. Perseverance is what distinguish
+          me the most.
+        </p>
       </div>
     </>
   );
