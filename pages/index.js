@@ -42,7 +42,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex justify-end mr-36 -mt-10">
+          <div className="flex justify-end mr-44 -mt-28">
             <div className="rounded-lg bg-white w-[59px] h-[154px]">
               <div className="space-y-10 mx-3">
                 <div className="mt-1">
@@ -165,6 +165,11 @@ export default function Home() {
           Dripping water hollows out a stone. Perseverance is what distinguish
           me the most.
         </p>
+      </div>
+      <div className="lg:w-[1440px] lg:h-[700px] bg-[#F8F9FA]">
+        <div>
+          <h1>Project</h1>
+        </div>
       </div>
     </>
   );
