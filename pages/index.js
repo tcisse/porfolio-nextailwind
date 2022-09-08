@@ -116,7 +116,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:w-[1440px] lg:h-[904px] bg-[#EEECEC]"></div>
+      <div className="lg:w-[1440px] lg:h-[904px] bg-[#EEECEC]">
+        <h1></h1>
+        <p></p>
+      </div>
     </>
   );
 }
