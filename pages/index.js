@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           <div className="text-white lg:grid grid-cols-2 lg:mt-32 mt-10 md:10 sm:10">
             <div>
-              <h1 className="lg:text-6xl md:text-4xl text-2xl lg:ml-36 md:ml-10 ml-10">
+              <h1 className="lg:text-6xl md:text-4xl text-2xl lg:ml-36 md:ml-10 ml-10 animate__animated animate__bounce">
                 Luis Rodrigues
               </h1>
               <h1 className="lg:text-6xl text-2xl lg:ml-48 ml-10 lg:mt-5 mt-5 ">
@@ -167,8 +167,18 @@ export default function Home() {
         </p>
       </div>
       <div className="lg:w-[1440px] lg:h-[700px] bg-[#F8F9FA]">
-        <div>
-          <h1>Project</h1>
+        <div className="">
+          <h1 className="text-6xl font-bold">Project</h1>
+        </div>
+        <div className="mt-10">
+          <button className="rounded-lg bg-[#12B8FF] w-10 h-10 text-white">All</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-36 h-10 text-black">Front end</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">Full stack</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">Personal</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">Team</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">Bootstrap</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">React</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">JavaScript</button>
         </div>
       </div>
     </>
