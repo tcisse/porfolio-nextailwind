@@ -170,15 +170,15 @@ export default function Home() {
         <div className="">
           <h1 className="text-6xl font-bold">Project</h1>
         </div>
-        <div className="mt-10">
+        <div className="mt-10 space-x-3 flex justify-center">
           <button className="rounded-lg bg-[#12B8FF] w-10 h-10 text-white">All</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-36 h-10 text-black">Front end</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">Full stack</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">Personal</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">Team</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">Bootstrap</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">React</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-10 h-10 text-black">JavaScript</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Front end</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Full stack</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Personal</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Team</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Bootstrap</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">React</button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">JavaScript</button>
         </div>
       </div>
     </>
