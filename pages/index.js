@@ -342,6 +342,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div>
+        <h1 className="font-bold text-6xl mt-10 ml-36">Open to work</h1>
+        <p className="mt-36 ml-48">Did you like my projects? Let's work together!</p>
+      </div>
     </>
   );
 }
