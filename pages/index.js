@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import profil from "../public/profil.png";
+import nourish from "../public/nourish.png";
+import dash from "../public/dash.png";
 
 export default function Home() {
   return (
@@ -168,17 +170,121 @@ export default function Home() {
       </div>
       <div className="lg:w-[1440px] lg:h-[700px] bg-[#F8F9FA]">
         <div className="">
-          <h1 className="text-6xl font-bold">Project</h1>
+          <h1 className="text-6xl font-bold ml-10">Project</h1>
         </div>
         <div className="mt-10 space-x-3 flex justify-center">
-          <button className="rounded-lg bg-[#12B8FF] w-10 h-10 text-white">All</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Front end</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Full stack</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Personal</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Team</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">Bootstrap</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">React</button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">JavaScript</button>
+          <button className="rounded-lg bg-[#12B8FF] w-10 h-10 text-white">
+            All
+          </button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
+            Front end
+          </button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
+            Full stack
+          </button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
+            Personal
+          </button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
+            Team
+          </button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
+            Bootstrap
+          </button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
+            React
+          </button>
+          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
+            JavaScript
+          </button>
+        </div>
+        <div className="grid grid-cols-2 mt-5">
+          <div className="ml-96">
+            <div className="flex justify-center">
+              <Image
+                src={nourish}
+                alt="profil picture"
+                width={290}
+                height={200}
+              />
+            </div>
+            <h1 className="font-semibold text-center">Eat Seasonal</h1>
+            <div className="mx-10">
+              <p className="">
+                The app provides recipes around in season produce, allowing a
+                user to create an account, shopping list and save favourite
+                recipes as well.
+              </p>
+            </div>
+            <div className="flex justify-center mt-5 space-x-5">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className=""
+                  width="40"
+                  height="40"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                  />
+                </svg>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className=""
+                  width="40"
+                  height="40"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                  />
+                </svg>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon-tabler icon-tabler-brand-github"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="#2c3e50"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="mr-96">
+            <div className="flex justify-center">
+              <Image src={dash} alt="dashboard" width={290} height={200} />
+            </div>
+            <h1 className="font-semibold text-center">Eat Seasonal</h1>
+            <div className="mx-10">
+              <p className="">
+                The app provides recipes around in season produce, allowing a
+                user to create an account, shopping list and save favourite
+                recipes as well.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>
