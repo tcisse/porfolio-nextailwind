@@ -344,7 +344,73 @@ export default function Home() {
       </div>
       <div>
         <h1 className="font-bold text-6xl mt-10 ml-36">Open to work</h1>
-        <p className="mt-36 ml-48">Did you like my projects? Let's work together!</p>
+        <div className="flex mt-20">
+          <div className="ml-40">
+            <p className="mt-10 text-xl">
+              Did you like my projects? Let's work together!
+            </p>
+            <ul className="flex justify-center mt-10">
+              <a>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-2 -2 24 24"
+                    width="80"
+                    fill="currentColor"
+                    className="text-blue-400"
+                  >
+                    <path d="M15 11.13v3.697h-2.143v-3.45c0-.866-.31-1.457-1.086-1.457-.592 0-.945.398-1.1.784-.056.138-.071.33-.071.522v3.601H8.456s.029-5.842 0-6.447H10.6v.913l-.014.021h.014v-.02c.285-.44.793-1.066 1.932-1.066 1.41 0 2.468.922 2.468 2.902zM6.213 5.271C5.48 5.271 5 5.753 5 6.385c0 .62.466 1.115 1.185 1.115h.014c.748 0 1.213-.496 1.213-1.115-.014-.632-.465-1.114-1.199-1.114zm-1.086 9.556h2.144V8.38H5.127v6.447z"></path>
+                    <path d="M4 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4zm0-2h12a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"></path>
+                  </svg>
+                </li>
+              </a>
+              <a>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-2 -5 24 24"
+                    width="80"
+                    fill="currentColor"
+                    className="text-blue-400"
+                  >
+                    <path d="M3.598 2l5.747 5.12a1 1 0 0 0 1.33 0L16.423 2H3.598zM18 3.273l-5.994 5.341a3 3 0 0 1-3.992 0L2 3.254V12h16V3.273zM2 0h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"></path>
+                  </svg>
+                </li>
+              </a>
+            </ul>
+          </div>
+          <div className="ml-40 space-y-3">
+            <div className="">
+              <input
+                id=""
+                type=""
+                placeholder="Name"
+                className="bg-[#F8F9FA] border-blue-500 p-2.5 rounded-lg w-96"
+              />
+            </div>
+            <div>
+              <input
+                id=""
+                type=""
+                placeholder="Email"
+                className="bg-[#F8F9FA] border-blue-500 p-2.5 rounded-lg w-96"
+              />
+            </div>
+            <div>
+              <textarea
+                id="message"
+                placeholder="Message"
+                className=" rounded-lg p-2.5 text-base block bg-[#F8F9FA] w-full h-40"
+              />
+            </div>
+            <div>
+              <button className="bg-[#F8F9FA] border-2 border-[#12B8FF] rounded-lg w-[542px] h-[48px] mt-3 py-2">
+                Submit
+              </button>
+            </div>
+          </div>
+          <div></div>
+        </div>
       </div>
     </>
   );
