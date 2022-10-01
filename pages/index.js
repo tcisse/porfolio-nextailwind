@@ -385,7 +385,7 @@ export default function Home() {
                 id=""
                 type=""
                 placeholder="Name"
-                className="bg-[#F8F9FA] border-blue-500 p-2.5 rounded-lg w-96"
+                className="bg-[#F8F9FA] border-blue-500 p-2.5 rounded-lg w-full"
               />
             </div>
             <div>
@@ -393,7 +393,7 @@ export default function Home() {
                 id=""
                 type=""
                 placeholder="Email"
-                className="bg-[#F8F9FA] border-blue-500 p-2.5 rounded-lg w-96"
+                className="bg-[#F8F9FA] border-blue-500 p-2.5 rounded-lg w-full"
               />
             </div>
             <div>
@@ -409,7 +409,9 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div></div>
+        </div>
+        <div className="bg-[#343A40] py-3 text-center text-white mt-10">
+          <h1>@2022 Cissé Taher</h1>
         </div>
       </div>
     </>
