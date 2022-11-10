@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+// import styles from "../styles/Home.module.css";
 import profil from "../public/profil.png";
 import nourish from "../public/nourish.png";
 import dash from "../public/dash.png";
@@ -44,7 +44,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex justify-end mr-44 -mt-28">
+          <div className="flex justify-end lg:mr-44 mr-10 -mt-28">
             <div className="rounded-lg bg-white w-[59px] h-[154px]">
               <div className="space-y-10 mx-3">
                 <div className="mt-1">
@@ -120,9 +120,7 @@ export default function Home() {
       </div>
       <div className="lg:w-[1440px] lg:h-[700px] bg-[#EEECEC]">
         <div className="">
-          <h1 className="font-bold text-6xl lg:ml-56 items-center">
-            About me
-          </h1>
+          <h1 className="font-bold text-6xl lg:ml-56 items-center">About me</h1>
         </div>
         <div className="lg:mx-56 mx-10 text-xl leading-10">
           <p>
@@ -170,7 +168,7 @@ export default function Home() {
           me the most.
         </p>
       </div>
-      <div className="lg:w-[1440px] lg:h-[700px] bg-[#F8F9FA]">
+      <div className="lg:w-[1440px] lg:h-[700px] h-[708px] bg-[#F8F9FA]">
         <div className="">
           <h1 className="text-6xl font-bold ml-10">Project</h1>
         </div>
@@ -345,9 +343,11 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <h1 className="font-bold text-6xl mt-10 ml-36">Open to work</h1>
-        <div className="flex mt-20">
-          <div className="ml-40">
+        <h1 className="font-bold text-6xl mt-10 lg:ml-36 ml-10">
+          Open to work
+        </h1>
+        <div className="lg:flex flex-col-2 mt-20">
+          <div className="lg:ml-40 ml-10">
             <p className="mt-10 text-xl">
               Did you like my projects? Let's work together!
             </p>
@@ -381,7 +381,7 @@ export default function Home() {
               </a>
             </ul>
           </div>
-          <div className="lg:ml-40 space-y-3">
+          <div className="lg:ml-40 mx-5 space-y-3">
             <div className="">
               <input
                 id=""
@@ -405,8 +405,8 @@ export default function Home() {
                 className=" rounded-lg p-2.5 text-base block bg-[#F8F9FA] w-full h-40"
               />
             </div>
-            <div>
-              <button className="bg-[#F8F9FA] border-2 border-[#12B8FF] rounded-lg w-[542px] h-[48px] mt-3 py-2">
+            <div className="flex justify-center items-center">
+              <button className="bg-[#F8F9FA] border-2 border-[#12B8FF] rounded-lg lg:w-[542px] w-48 lg:h-[48px] mt-3 py-2">
                 Submit
               </button>
             </div>
