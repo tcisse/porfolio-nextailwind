@@ -120,9 +120,11 @@ export default function Home() {
       </div>
       <div className="lg:w-[1440px] lg:h-[700px] bg-[#EEECEC]">
         <div className="">
-          <h1 className="font-bold text-6xl ml-56">About me</h1>
+          <h1 className="font-bold text-6xl lg:ml-56 items-center">
+            About me
+          </h1>
         </div>
-        <div className="mx-56 text-xl leading-10">
+        <div className="lg:mx-56 mx-10 text-xl leading-10">
           <p>
             Hi! My interest in web development started back in 2019 when I
             decided to create a website for a family company.
@@ -140,9 +142,9 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center mt-5">
-          <div className=" bg-white w-[593px] h-[216px] rounded-lg">
+          <div className="bg-white lg:w-[593px] lg:h-[216px] rounded-lg">
             <h1 className="ml-10 text-2xl mt-2">Skills</h1>
-            <div className="flex space-x-14 ml-4 text-2xl mt-3">
+            <div className="flex lg:space-x-14 ml-4 text-2xl mt-3">
               <div>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -163,7 +165,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p className="flex justify-center text-2xl mt-10">
+        <p className="flex justify-center text-2xl mt-10 lg:mx-0 mx-10">
           Dripping water hollows out a stone. Perseverance is what distinguish
           me the most.
         </p>
@@ -172,7 +174,7 @@ export default function Home() {
         <div className="">
           <h1 className="text-6xl font-bold ml-10">Project</h1>
         </div>
-        <div className="mt-10 space-x-3 flex justify-center">
+        <div className="mt-10 lg:space-x-3 flex justify-center">
           <button className="rounded-lg bg-[#12B8FF] w-10 h-10 text-white">
             All
           </button>
@@ -199,7 +201,7 @@ export default function Home() {
           </button>
         </div>
         <div className="grid grid-cols-2 mt-5">
-          <div className="ml-96">
+          <div className="lg:ml-96">
             <div className="flex justify-center">
               <Image
                 src={nourish}
@@ -272,7 +274,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="mr-96">
+          <div className="lg:mr-96">
             <div className="flex justify-center">
               <Image src={dash} alt="dashboard" width={290} height={200} />
             </div>
@@ -379,7 +381,7 @@ export default function Home() {
               </a>
             </ul>
           </div>
-          <div className="ml-40 space-y-3">
+          <div className="lg:ml-40 space-y-3">
             <div className="">
               <input
                 id=""
