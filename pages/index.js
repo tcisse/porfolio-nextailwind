@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className="lg:w-[1440px] lg:h-[700px] bg-black">
         <div>
-          <div className="w-[1440px] h-16 bg-[#12B8FFEB] flex items-center justify-center">
+          <div className="lg:w-[1440px] lg:h-16 bg-[#12B8FFEB] flex items-center justify-center">
             <ul className="flex justify-center space-x-6">
               <li>WELCOME</li>
               <li>ABOUT</li>
@@ -140,9 +140,9 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center mt-5">
-          <div className="bg-white lg:w-[593px] lg:h-[216px] rounded-lg">
+          <div className="bg-white lg:w-[593px] w-[400px] lg:h-[216px] rounded-lg">
             <h1 className="ml-10 text-2xl mt-2">Skills</h1>
-            <div className="flex lg:space-x-14 ml-4 text-2xl mt-3">
+            <div className="flex lg:space-x-14 space-x-5 ml-4 lg:text-2xl mt-3 py-2">
               <div>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -170,7 +170,7 @@ export default function Home() {
       </div>
       <div className="lg:w-[1440px] lg:h-[700px] h-[708px] bg-[#F8F9FA]">
         <div className="">
-          <h1 className="text-6xl font-bold ml-10">Project</h1>
+          <h1 className="text-6xl font-bold flex items-center justify-center">Project</h1>
         </div>
         <div className="mt-10 lg:space-x-3 flex justify-center">
           <button className="rounded-lg bg-[#12B8FF] w-10 h-10 text-white">
