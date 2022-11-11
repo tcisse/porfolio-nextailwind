@@ -170,23 +170,13 @@ export default function Home() {
       </div>
       <div className="lg:w-[1440px] lg:h-[700px] h-[708px] bg-[#F8F9FA]">
         <div className="">
-          <h1 className="text-6xl font-bold flex items-center justify-center">Project</h1>
+          <h1 className="text-6xl font-bold flex items-center justify-center">
+            Project
+          </h1>
         </div>
         <div className="mt-10 lg:space-x-3 flex justify-center">
           <button className="rounded-lg bg-[#12B8FF] w-10 h-10 text-white">
             All
-          </button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
-            Front end
-          </button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
-            Full stack
-          </button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
-            Personal
-          </button>
-          <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
-            Team
           </button>
           <button className="rounded-lg bg-white border-2 border-[#12B8FF] w-30 h-10 px-2 text-black">
             Bootstrap
